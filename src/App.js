@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import React from "react";
+import FlipCard from "./components/FlipCard"
+import Question from "./components/FlipCard"
+import Answer from "./components/FlipCard"
+
+
 
 function App() {
   return (
-    <h1>My first flash cards</h1>
-  
-  );
+    <FlipCard />
+  )
 }
 
 export default App;
